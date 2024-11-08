@@ -13,6 +13,7 @@ class SizedOverflowBoxView extends StatelessWidget {
         child: Container(
           color: Colors.blue,
           child: SizedOverflowBox(
+            alignment: Alignment.centerRight,
             size: Size(300, 100),
             child: Container(
               child: Container(
